@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'foxtel_textbold';
+    src: url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-bold.woff2') format('woff2'),
+         url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-bold.woff') format('woff'),
+         url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'foxtel_text';
+    src: url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-regular.woff2') format('woff2'),
+         url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-regular.woff') format('woff'),
+         url('https://s0.2mdn.net/creatives/assets/2960040/foxteltext-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

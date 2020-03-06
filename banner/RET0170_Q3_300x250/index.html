@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="ad.size" content="width=300,height=250">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<link rel="stylesheet" type="text/css" href="foxtelFonts.css">
+<link rel="stylesheet" type="text/css" href="style.css?rand=hy7uhjo9876trfvbhj">
+
+
+<script>
+  var clickTag = "https://www.foxtel.com.au/";
+</script>
+
+<style>
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'foxtel_textbold', arial;
+  font-variant-ligatures: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: white;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* common */
+
+.banner {
+  width: 300px;
+  height: 250px;
+  position:absolute;
+  left: 0px;
+}
+
+#banner {
+  border:1px solid #333333;
+  box-sizing: border-box;
+}
+
+#banner, .frame {
+  position:absolute;
+  overflow: hidden;
+  left:0px;
+  top:0px;
+  display:none;
+}
+
+#bg-exit {
+  position:absolute;
+  cursor: pointer;
+  z-index: 1000;
+  top: 0;
+  left:0;
+}
+
+.banner-border{
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+} 
+
+.svg-mask-wrapper {
+  position: absolute;
+}
+
+.frame1 .frame-wrapper .svg-mask-wrapper{
+  z-index: 3;
+}
+
+.cloud-wrap {
+    width:100%;
+    position: absolute;
+    height:60%;
+    top:0;
+    left:0;
+    right:0;
+}
+
+#render-clouds {
+    width: 500px;
+    height: 500px;
+    transform: rotate(90deg);
+    left: -67%; /* left position to start the clouds*/
+    top: -125%; /* offset from bottom */
+    opacity: 1;
+    position: absolute;
+}
+
+.backdrop {
+    width:300px;
+    min-height:250px;
+    position: relative;
+    /* background:url('cloudbg-300x250.jpg') no-repeat center center; */
+    background-size: cover;
+    /* z-index: -1; */
+}
+
+.backdrop-fireworks{
+  width:300px;
+  min-height:250px;
+  position: relative;
+  background-color:#000;
+  z-index: -1;
+}
+
+.fws-flash{
+  position: absolute;
+  height:100%;
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+  overflow:hidden;
+  background-color:#b20e0e;  
+  opacity: 0;
+}
+
+</style>
+
+</head>
+<body>
+  <div id="banner" class="banner"  style="display:none;">
+
+      <div class="frame1 frame banner" >
+        <div class="frame-wrapper">
+          <div class="svg-mask-wrapper">
+            <svg width="300" height="250" viewbox="0 0 300 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+              <defs>
+
+              </defs>
+              
+              <g>
+                <image id="img01" width="100%" height="100%" y="0" x="0" xlink:href="tile01.jpg" transform="matrix(1,0,0,1,0,0)"/>
+
+
+                <g class="unselectable copy copy1" transform="translate(93 208)">
+                  <text class="line line1  " y="0" x="0" >Best Drama</text>
+                </g> 
+
+              </g>
+
+            </svg>
+          </div>
+        </div>
+
+      </div>
+
+     <div class="frame2 frame banner">
+      <div class="frame-wrapper">
+        <div class="svg-mask-wrapper">
+          <svg width="300" height="250" viewbox="0 0 300 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+            <defs>
+
+              </defs>
+              
+              <g>
+                <image id="img02" width="100%" height="100%" y="0" x="0" xlink:href="tile02.jpg" transform="matrix(1,0,0,1,0,0)"></image>
+
+                <g class="unselectable copy copy1" transform="translate(43 208)">
+                  <text class="line line1  " y="0" x="0" >Live Sports in Ultra HD</text>
+                </g> 
+                
+              </g>
+          </svg>
+          
+        </div>
+      </div>
+     </div>
+
+     <div class="frame3 frame banner">
+        <div class="frame-wrapper">
+          <div class="svg-mask-wrapper">
+            <svg width="300" height="250" viewbox="0 0 300 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+              <defs>
+
+                  
+              </defs>
+              
+              
+              <g>
+                <image id="img03" width="100%" height="100%" y="0" x="0" xlink:href="tile03.jpg" transform="matrix(1,0,0,1,0,0)"></image>
+
+                <g class="unselectable copy copy1" transform="translate(83 198)">
+                  <text class="line line1  " y="0" x="0" >Ad-break free</text>
+                  <text class="line line1  " y="21" x="12" >during play</text>
+                </g> 
+                
+              </g>
+            </svg>
+          </div>
+        </div>
+     </div>
+
+     <div class="frame4 frame banner">
+        <div class="frame-wrapper">
+          <div class="svg-mask-wrapper">
+            <svg width="300" height="250" viewbox="0 0 300 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+              <defs>
+
+              </defs>
+              
+              
+              <g>
+                <image id="img04" width="100%" height="100%" y="0" x="0" xlink:href="tile04.jpg" transform="matrix(1,0,0,1,0,0)"></image>
+
+                <g class="unselectable copy copy1" transform="translate(96 207)">
+                  <text class="line line1  " y="0" x="0" >And Netflix</text>
+                </g> 
+                
+              </g>
+            </svg>
+          </div>
+        </div>
+     </div>
+
+
+     <div class="frame5 frame banner" >
+        <div class="frame-wrapper">
+          <div class="svg-mask-wrapper">
+            <svg width="300" height="250" viewbox="0 0 300 250"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+              <defs>
+
+
+
+              </defs>
+
+              <g>
+                  <image id="img05" width="100%" height="100%" y="0" x="0" xlink:href="tile05.jpg" transform="matrix(1,0,0,1,0,0)"></image>
+                  <g class="unselectable copy copy1" transform="translate(87 200)">
+                    <text class="line line1  " y="0" x="0" >Have it all</text>
+                  </g> 
+                  <image class=" tick3" width="73" height="19"   y="200" x="2" xlink:href="btn.png" transform="matrix(1,0,0,1,0,0)" />
+              
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+     <div class="common frame banner">
+        <div class="frame-wrapper">
+          <div class="svg-mask-wrapper">
+            <svg width="300" height="250" viewbox="0 0 300 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+              <defs>
+            
+              </defs>
+              <g >
+                  <image class="tick5" width="100%" height="100%" y="21" x="0" xlink:href="foxtelLogo.png" />
+              </g>
+            </svg>
+          </div>
+        </div>
+     </div>
+
+    <div id="bg-exit" class="banner"></div>
+           
+  </div>
+
+<script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+<script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.20.4_3dc5474a75410cb768741e402b80d908_min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="common.js"></script>
+<script src="main.js?rand=hgt67uhjko98765frfghj"></script>
+
+
+<script type="text/javascript">
+
+
+
+$(function() {
+  if (Enabler.isInitialized()) {
+    init();
+  } else {
+    Enabler.addEventListener(studio.events.StudioEvent.INIT, init);
+  }
+
+  // Runs when Enabler is ready.
+  function init() {
+    if (Enabler.isPageLoaded()) {
+      politeInit();
+    } else {
+      Enabler.addEventListener(studio.events.StudioEvent.PAGE_LOADED, politeInit);
+    }
+  };
+
+  // Runs when the page is completely loaded.
+  function politeInit(){
+    // Add your code to hide any loading image or animation and load creative
+    // assets or begin creative animation.
+    //preloadImages();
+    //subloadImages();
+  };
+  
+  function bgExitHandler(e) {
+   // Enabler.exit('Background Exit');
+   window.open(window.clickTag);
+  }
+
+  document.getElementById('bg-exit').addEventListener('click', bgExitHandler, false);
+
+  preloadImages();
+});
+
+</script>
+
+</body>
+</html>

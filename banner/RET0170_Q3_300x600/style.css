@@ -1,0 +1,136 @@
+  * {
+    -webkit-transform: rotate3d(0, 0, 0); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+      -ms-transform: rotate3d(0, 0, 0); /* IE 9 */
+          transform: rotate3d(0, 0, 0); /* IE 10, Fx 16+, Op 12.1+ */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*QA*/
+.qamode {
+  overflow: visible !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+}
+
+#banner.qamode {
+  border:0;
+  }
+.qamode {
+  border: 1px solid #333333;
+  box-sizing: border-box;
+}
+.frame.qamode {
+  overflow:hidden !important;
+}
+.frame .qamode {
+  border:0;
+}
+
+.noDisplay {
+  display: none !important;
+}
+
+/*Banner*/
+
+#bg {
+  background-color: #f2410a;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index:0;
+}
+
+.line {
+  font-size: 28px;
+  fill: #f14710;
+  letter-spacing: -1px;
+}
+
+.frame3 .line {
+  fill: #f2410a;
+}
+
+.copy {
+  fill: #fff;
+}
+
+.previewbg {
+  fill: #f2410a;
+  display: none;
+}
+
+
+.fireworks-wrap {
+    position: absolute;
+    height:100%;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    overflow:hidden;
+}
+
+.fws-b {
+    position: relative ;
+    top:15%;
+    left:30px;
+            
+}
+.fws-y {
+    position: relative ;
+    top:5%;
+    left:55%;
+}
+.fws-r {
+    position: relative ;
+    top:20%;
+    left:50%;
+
+    width:160px;
+}
+
+.fws-r2 {
+    position: relative ;
+    top:6%;
+    left:28%;
+}
+
+.fws-b2 {
+  position: relative ;
+  top:25%;
+  left:60px;
+          
+}
+
+.fws-y2 {
+  position: relative ;
+  top:20%;
+  left:100px;
+          
+}
+
+.fws {
+    opacity: 0;
+    transform:scale(0);
+    transform-origin:center;
+}
+
+.fireworks-wrap img {
+    position: absolute; 
+}
+
+
+.frame3 .frame.qamode {
+  display: none !important;
+}
+
+.frame4 .frame.qamode {
+  display: none !important;
+}
+
+.frame5 .line{
+  font-size: 43px;
+}

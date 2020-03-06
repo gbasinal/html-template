@@ -1,0 +1,205 @@
+  * {
+    -webkit-transform: rotate3d(0, 0, 0); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+      -ms-transform: rotate3d(0, 0, 0); /* IE 9 */
+          transform: rotate3d(0, 0, 0); /* IE 10, Fx 16+, Op 12.1+ */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*QA*/
+.qamode {
+  overflow: visible !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+}
+
+#banner.qamode {
+  border:0;
+  }
+.qamode {
+  border: 1px solid #333333;
+  box-sizing: border-box;
+}
+.frame.qamode {
+  overflow:hidden !important;
+}
+.frame .qamode {
+  border:0;
+}
+
+.noDisplay {
+  display: none !important;
+}
+
+/*Banner*/
+
+#bg {
+  background-color: #f2410a;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index:0;
+}
+
+.line {
+  font-size: 33px;
+  fill: #f14710;
+  letter-spacing: -1px;
+}
+
+.frame3 .line {
+  fill: #f2410a;
+}
+
+.subhead {
+  font-family: 'foxtel_text', arial;
+  font-size: 20px;
+  fill: #fff;
+}
+
+.title {
+  font-family: 'foxtel_text', arial;
+  font-size: 20px;
+  fill: #fff;
+}
+
+.copy {
+  fill: #fff;
+}
+
+.hbologo {
+  fill: #fff !important;
+}
+
+.ctaGroup .copy {
+  font-size: 16px; 
+}
+
+.ctatext {
+  font-size: 15px;
+  fill:#f2410a;
+}
+
+.discl {
+  font-family: 'foxtel_text', arial;
+  font-size: 9px;
+  fill: #fff;
+}
+
+.frame5 .discl {
+  fill: #000;
+}
+
+.caption {
+  font-size: 9px;
+}
+
+.showtitle {
+  font-size: 11px;
+}
+
+.rating {
+  font-size: 9px;
+}
+
+.copyright {
+  font-size: 9px;
+}
+
+.hat {
+  font-size: 0.5em;
+}
+
+.mincost {
+  font-size: 13px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.previewbg {
+  fill: #f2410a;
+  display: none;
+}
+
+.frame4 .line{
+  fill: #f2410a;
+
+}
+
+.fireworks-wrap {
+    position: absolute;
+    height:100%;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    overflow:hidden;
+}
+
+.fws-b {
+  position: relative ;
+  top:15%;
+  left:80%;
+          
+}
+.fws-y {
+  position: relative ;
+  top:15%;
+  left:13%;
+}
+.fws-r {
+  position: relative ;
+  top:20%;
+  left:39%;
+
+  width:160px;
+}
+
+.fws-r2 {
+  position: relative ;
+  top:6%;
+  left:23%;
+}
+
+.fws-b2 {
+position: relative ;
+top:25%;
+left:60px;
+        
+}
+
+.fws-y2 {
+position: relative ;
+top:20%;
+left:150px;
+        
+}
+
+.fws {
+  opacity: 0;
+  transform:scale(0);
+  transform-origin:center;
+}
+
+
+.fireworks-wrap img {
+    position: absolute; 
+}
+
+
+
+.frame3 .frame.qamode {
+  display: none !important;
+}
+
+.frame4 .frame.qamode {
+  display: none !important;
+}
+
+.frame5 .line {
+  font-size: 57px;
+}
